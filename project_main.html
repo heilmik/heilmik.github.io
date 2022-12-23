@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RMNT</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" 
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</head>
+<body>
+ <!-- MENU   -->
+ <nav class="navbar navbar-expand-sm navbar-dark bg-dark" style="position:fixed; width:100%; z-index:21;">
+    <a class="navbar-brand" href="javascript:scroll(0,0)">RMNT</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                     <a class="nav-link"  href="project_greetings.html#greetings ">Приветствие</a>
+                </li>
+                <li class="nav-item active">
+                     <a class="nav-link"  href="project_rating.html#rate">Рейтинг</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link"  href="project_paintings.html">Картины</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" target="_blank" href="project_feedback.html">Обратная связь</a>
+                </li>
+                <li>
+                  <a href="https://telegram.org/" target="_blank"><img src="icons8-телеграмма-app.svg" alt="" width="20px"></a>
+                </li>
+            </ul>
+        </div>
+</nav>
+<!-- COVER -->
+<div class="cover_painting" >
+  <a href="заповедник.jpg" target="_ blank"><img src="заповедник.jpg" alt="" width="100%"></a> 
+</div>
+
+
+<!--   GREETINGS    -->
+<header class="jumbotron jumbotron-fluid pl-sm-4 pl-3" style="overflow: hidden" id="greetings">
+   <div class="col-md-7">
+       <h1 class="display-3 d-none d-sm-block" style="padding-top: 55px;">Приветствую!</h1>
+       <h1 class="display-4 d-block d-sm-none"  style="padding-top: 55px;">Приветствую!</h1>
+       <p class="lead" style="font-size: 20px;">Это место, где собраны впечатлившие или тронувшие меня картины из жанра романтизм.</p>
+
+       <button type="button" class="btn btn-primary btn-lg">
+         Перейти к галерее
+       </button>
+   </div>
+</header>
+  <!--   MAIN    -->
+<main class="w100 px-sm-4">
+   <div class="container-fluid">
+    <h4>Характерные черты романтизма</h4>
+    <ol class="list-group list-group-numbered">
+      <li class="list-group-item"><b>1. Стремление к страсти</b></li>
+      <li class="list-group-item">
+        <ul class="list-group list-group-numbered" style="list-style-type:lower-alpha;"> <b>2. Повышенная выразительность</b> 
+          <div class="genre_features">
+            <li >тревожность</li>
+            <li >таинственность</li>
+            <li >драматизм</li>
+          </div>
+        </ul>
+      </li>
+      <li class="list-group-item"><b>3. Отсутствие строгой геометрической формы</b></li>
+      <li class="list-group-item"><b>4. Динамичная композиция</b></li>
+    </ol>
+    </div><!-- container  fluid -->
+ <!--   TABLE   -->
+ <h3>Топ сайта</h3>
+ 
+ <div class="tmainHead" id="rate"></div>
+<article class="col">
+        <table class="table table-bordered table-responsive-sm">
+          <!-- THEAD -->
+           <thead>
+                 <tr>
+                     <th scope="col" class="head__table__title">Название работы</th>
+                     <th scope="col" class="head__table__title">Год создания</th>
+                     <th scope="col" class="head__table__title">Мастер</th>
+                     <th scope="col" class="head__table__title">Популярность</th>
+                 </tr>
+           </thead>
+            <!-- TBODY -->
+           <tbody>
+             <tr class="row__1">
+                  <td class="title__color__body"><a href="https://en.wikipedia.org/wiki/File:Johan_Christian_Clausen_Dahl_-_Landskap_i_m%C3%A5neskinnet_(1823).jpg">Landskap i måneskinnet</a></td>
+                  <td>1823</td>
+                  <td class="title__color__body"><a href="https://ru.wikipedia.org/wiki/%D0%94%D0%B0%D0%BB%D1%8C,_%D0%AE%D1%85%D0%B0%D0%BD_%D0%9A%D1%80%D0%B8%D1%81%D1%82%D0%B8%D0%B0%D0%BD_%D0%9A%D0%BB%D0%B0%D1%83%D1%81%D0%B5%D0%BD">Юхан Кристиан Клаусен Даль</a></td>
+                  <td>114</td>
+             </tr>
+
+             <tr class="row__2">
+                  <td class="title__color__body"><a href="https://commons.wikimedia.org/wiki/File:Carl_Blechen_-_St%C3%BCrmische_See_mit_Leuchtturm.jpg">Stürmische See mit Leuchtturm</a></td>
+                  <td>1826</td>
+                  <td class="title__color__body"><a href="https://ru.wikipedia.org/wiki/%D0%91%D0%BB%D0%B5%D1%85%D0%B5%D0%BD,_%D0%9A%D0%B0%D1%80%D0%BB">Карл Блехен</a></td>
+                  <td>105</td>
+             </tr>
+
+             <tr class="row__3">
+                  <td class="title__color__body"><a href="https://commons.wikimedia.org/wiki/Category:The_Ninth_Wave_by_Ivan_Aivazovsky">Девятый вал</a></td>
+                  <td>1850 </td>
+                  <td class="title__color__body"><a href="https://ru.wikipedia.org/wiki/%D0%90%D0%B9%D0%B2%D0%B0%D0%B7%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9,_%D0%98%D0%B2%D0%B0%D0%BD_%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D0%B8%D1%87">Иван Айвазовский</a> </td>
+                  <td>101</td>
+             </tr>
+
+             <tr class="row__4">
+                  <td class="title__color__body"><a href="https://commons.wikimedia.org/wiki/Category:Der_Wanderer_%C3%BCber_dem_Nebelmeer">Der Wanderer über dem Nebelmeer</a></td>
+                  <td>1817</td>
+                  <td class="title__color__body"><a href="https://ru.wikipedia.org/wiki/%D0%A4%D1%80%D0%B8%D0%B4%D1%80%D0%B8%D1%85,_%D0%9A%D0%B0%D1%81%D0%BF%D0%B0%D1%80_%D0%94%D0%B0%D0%B2%D0%B8%D0%B4">Каспар Давид Фридрих</a></td>
+                  <td>100</td>
+             </tr>
+
+             <tr class="row__5">
+                  <td class="title__color__body"><a href="https://commons.wikimedia.org/wiki/File:Carl_Gustav_Carus_-_Tintern_Abbey.jpg">Tintern Abbey</a></td>
+                  <td>1825</td>
+                  <td class="title__color__body"><a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D1%83%D1%81,_%D0%9A%D0%B0%D1%80%D0%BB_%D0%93%D1%83%D1%81%D1%82%D0%B0%D0%B2">Карл Густав Карус</a></td>
+                  <td>92</td>
+             </tr>
+
+             <tr class="row__6">
+                  <td class="title__color__body"><a href="https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:Caspar_David_Friedrich_-_Winterlandschaft_mit_Kirche_(Dortmund).jpg">Winterlandschaft mit Kirche</a></td>
+                  <td>1811</td>
+                  <td class="title__color__body"><a href="https://ru.wikipedia.org/wiki/%D0%A4%D1%80%D0%B8%D0%B4%D1%80%D0%B8%D1%85,_%D0%9A%D0%B0%D1%81%D0%BF%D0%B0%D1%80_%D0%94%D0%B0%D0%B2%D0%B8%D0%B4">Каспар Давид Фридрих</a></td>
+                  <td>84</td>
+             </tr>
+
+             <tr class="row__7">
+                  <td class="title__color__body"><a href="https://commons.wikimedia.org/wiki/File:Carl_Friedrich_Lessing_Romantische_Landschaft_mit_Klosteranlage.jpg">Romantische Landschaft mit Klosteranlage</a></td>
+                  <td>1834</td>
+                  <td class="title__color__body"><a href="https://ru.wikipedia.org/wiki/%D0%9B%D0%B5%D1%81%D1%81%D0%B8%D0%BD%D0%B3,_%D0%9A%D0%B0%D1%80%D0%BB_%D0%A4%D1%80%D0%B8%D0%B4%D1%80%D0%B8%D1%85">Карл Фридрих Лессинг</a></td>
+                  <td>78</td>
+             </tr>
+
+             <tr class="row__8">
+                  <td class="title__color__body"><a href="https://commons.wikimedia.org/wiki/File:Gustav_Karl_Ludwig_Richter_-_Teich_im_Riesengebirge_-_Google_Art_Project.jpg">Teich im Riesengebirge</a></td>
+                  <td>1839</td>
+                  <td class="title__color__body"><a href="https://ru.wikipedia.org/wiki/%D0%A0%D0%B8%D1%85%D1%82%D0%B5%D1%80,_%D0%9B%D1%8E%D0%B4%D0%B2%D0%B8%D0%B3">Людвиг Рихтер</a></td>
+                  <td>76</td>
+              </tr>
+
+             <tr class="row__9">
+                  <td class="title__color__body"><a href="https://commons.wikimedia.org/wiki/File:Carl_Gustav_Carus_-_Winterlandschaft_mit_verfallenem_Tor.jpg">Winterlandschaft mit verfallenem Tor</a></td>
+                  <td>1818</td>
+                  <td class="title__color__body"><a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D1%83%D1%81,_%D0%9A%D0%B0%D1%80%D0%BB_%D0%93%D1%83%D1%81%D1%82%D0%B0%D0%B2">Карл Густав Карус</a></td>
+                  <td>62</td>
+             </tr>
+
+             <tr class="row__10">
+                  <td colspan="4"></td>
+             </tr>
+           </tbody>
+       </table>
+</article>
+</main>
+<!--   FOOTER    -->
+<footer class="footer__main">
+  <div class="title__footer_div">
+    <span class="title__footer__span">© 2022 &nbsp Romanticism </span>
+  </div>
+</footer>
+</body>
+</html>

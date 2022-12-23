@@ -1,0 +1,132 @@
+@import url("normalize.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+a{
+    text-decoration: none !important;
+  }
+  
+
+  .head__table__title{
+   font-style: normal  !important;
+   font-weight: 600 !important;
+   font-size: 16px !important;
+   line-height: 19px !important;
+  }
+  
+  .footer__main{
+    background-color: #F5F5F5;
+    margin-top: 89px;
+    padding-left: 40px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .title__footer__span{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #6C757D;
+  }
+  .col{
+    margin-top: 55px !important;
+  }
+  th, td {
+    border: 2px solid #dee2e674 !important;
+  }
+  th{
+    text-transform: uppercase;
+    border-bottom: 1px Solid #111111 !important;
+    text-align: left !important;
+  }
+  
+  /*                                          HOVER                                                                         ;*/
+  tr.row__1, .row__3, .row__5, .row__7, .row__9{
+    background-color: #efefef95 !important;
+  }
+  tr:hover {
+    background-color: #9fa5a961 !important;
+  }
+
+  .active_navbar {
+    color: #8afffb;
+  }
+  
+  .nav-link:hover{
+   transition: color .2s linear !important;
+  }
+  .nav-link:hover{
+    color:#2d93ff !important;
+  }
+
+  
+  
+  .jumbotron{
+    transition: background-color .5s linear !important;
+  }
+  .jumbotron:hover{
+    background-color: #e5f2fc !important;
+    font-size:14px !important;
+  }
+  
+  .mb-4{
+    transition: background-color .3s linear !important;
+    transition: border-radius .3s linear !important;
+  }
+  .mb-4:hover{
+    background-color: #E2E5E7 !important;
+    border-radius: 15px !important;
+  }
+
+  table {
+    background-image: url(yjNSk9.jpg);
+  }
+
+  table .row__10 {
+    background-image: url(footer_gradient.jpg);
+  }
+
+
+  .genre_features {
+  padding-left: 40px !important;
+  }
+
+  .container-fluid h4 {
+    padding-bottom: 20px;
+  }
+
+.container {
+  padding-top: 100px;
+  font-size:larger;
+}
+
+.container figure {
+  padding-top: 80px;
+}
+
+.container button {
+  margin-left: 50%;
+}
+
+nav img {
+margin-top: 11px;
+margin-left: 10px;
+}
+
+main h3 {
+  padding-top: 70px;
+  padding-left: 20px;
+}
+
+.center_form {
+  width: 100%;
+text-align:  center;
+}
+
+.center_form li{
+  text-align: left;
+  }
+
+  .cover_painting .link:hover {cursor: default;}
+  
